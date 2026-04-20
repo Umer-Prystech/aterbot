@@ -1,18 +1,16 @@
 {
-	"private": true,
-	"type": "module",
-	
-	"name": "aterbot",
-	"version": "0.0.0",
-	
-	"scripts": {
-		"start": "tsx ./src/index.ts",
-		"dev": "node --inspect --loader tsx ./src/index.ts"
-	},
-
-	"dependencies": {
-		"mineflayer": "^4.20.0",
-		"mineflayer-forge": "^1.0.0",
-		"tsx": "^4.7.1"
-	}
+    "private": true,
+    "type": "module",
+    "packageManager": "pnpm@8.0.0",
+    "name": "aterbot",
+    "version": "0.0.0",
+    "scripts": {
+        "start": "tsx ./src/index.ts",
+        "dev": "node --inspect --loader tsx ./src/index.ts"
+    },
+    "dependencies": {
+        "mineflayer": "^4.20.0",
+        "mineflayer-forge": "^1.0.0",
+        "tsx": "^4.7.1"
+    }
 }
