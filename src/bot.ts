@@ -1,5 +1,4 @@
 import Mineflayer from 'mineflayer';
-import { ForgeHandshake } from 'mineflayer-forge';
 import { sleep, getRandom } from "./utils.ts";
 import CONFIG from "../config.json" with { type: 'json' };
 
@@ -24,10 +23,10 @@ const createBot = (): void => {
 	bot = Mineflayer.createBot({
 		host: CONFIG.client.host,
 		port: +CONFIG.client.port,
-		username: CONFIG.client.username
+		username: CONFIG.client.username,
+		version: "1.20.1",
+		forgeHandshake: true
 	} as const);
-
-	bot.loadPlugin(ForgeHandshake);
 
 	bot.once('error', error => {
 		console.error(`AFKBot got an error: ${error}`);
