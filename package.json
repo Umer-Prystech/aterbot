@@ -9,7 +9,6 @@
     },
     "dependencies": {
         "mineflayer": "^4.20.0",
-        "mineflayer-forge": "https://github.com/PrismarineJS/mineflayer-forge.git",
         "tsx": "^4.7.1"
     }
 }
