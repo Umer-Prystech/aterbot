@@ -7,9 +7,9 @@
         "start": "tsx ./src/index.ts",
         "dev": "node --inspect --loader tsx ./src/index.ts"
     },
-"dependencies": {
-    "mineflayer": "^4.20.0",
-    "mineflayer-forge": "PrismarineJS/mineflayer-forge",
-    "tsx": "^4.7.1"
-}
+    "dependencies": {
+        "mineflayer": "^4.20.0",
+        "mineflayer-forge": "PrismarineJS/mineflayer-forge",
+        "tsx": "^4.7.1"
+    }
 }
